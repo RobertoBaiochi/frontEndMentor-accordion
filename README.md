@@ -27,7 +27,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Url : 
+- Live Url : https://robertobaiochi.github.io/frontEndMentor-accordion/
 
 ## My process
 

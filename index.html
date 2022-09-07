@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="resetCss.css">
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="index.js" defer></script>
+    
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrap">
+        <section class="images-section"> <!-- IMG SECTION --> 
+          <div class="overflow-container">
+
+            <picture>
+              <source srcset="./images/illustration-woman-online-desktop.svg" media="(min-width: 1024px)">
+              <img class="woman-img" src="./images/illustration-woman-online-mobile.svg" alt="illustration illustration woman">
+            </picture>
+            
+            <picture class="bg-imgs">
+              <source srcset="./images/bg-pattern-desktop.svg"  media="(min-width: 1024px)" >
+              <img src="./images/bg-pattern-mobile.svg" alt="background pattern">
+            </picture>
+
+          </div>
+
+            <picture class="box">
+              <img src="./images/illustration-box-desktop.svg" alt="illustration box">
+            </picture>
+        </section> <!-- /IMG SECTION -->
+        
+
+
+        <section class="accordion-section"> <!-- UL SECTION --> 
+          <div class="accordion-header">
+            <h1>FAQ</h1>
+          </div>
+
+          <ul class="accordion">
+            <li accordion-toggle class="menu-accordion">
+              <div class="main-text">
+                <span>How many team members can I invite?</span>
+                <img class="arrow" src="./images/icon-arrow-down.svg" alt="arrow">
+              </div>
+              <ul>
+                <li class="accordion-inside">
+                  <span>
+                    You can invite up to 2 additional users
+                    on the Free plan. There is no limit on team members for the Premium plan.
+                  </span>
+                </li>
+              </ul>
+            </li>
+
+            <li accordion-toggle class="menu-accordion">
+              <div class="main-text">
+                <span>What is the maximum file upload size?</span>
+                <img class="arrow" src="./images/icon-arrow-down.svg" alt="arrow">
+              </div>
+              <ul>
+                <li class="accordion-inside">
+                  <span>
+                    No more than 2GB. All files in your
+                    account must fit your allotted storage space. 
+                  </span>
+                </li>
+              </ul>
+            </li>
+
+            <li accordion-toggle class="menu-accordion">
+              <div class="main-text">
+                <span>How do I reset my password?</span>
+                <img class="arrow" src="./images/icon-arrow-down.svg" alt="arrow">
+              </div>
+              <ul>
+                <li class="accordion-inside">
+                  <span>
+                    Click “Forgot password” from the login page or “Change password” from your
+                    profile page. A reset link will be emailed to you.
+                  </span>
+                </li>
+              </ul>
+            </li>
+
+            <li accordion-toggle class="menu-accordion">
+              <div class="main-text">
+                <span>Can I cancel my subscription?</span>
+                <img class="arrow" src="./images/icon-arrow-down.svg" alt="arrow">
+              </div>
+              <ul>
+                <li class="accordion-inside">
+                  <span>
+                    Yes! Send us a message and we’ll process your request no
+                    questions asked.
+                  </span>
+                </li>
+              </ul>
+            </li>
+            
+            <li accordion-toggle class="menu-accordion">
+              <div class="main-text">
+                <span>Do you provide additional support?</span>
+                <img class="arrow" src="./images/icon-arrow-down.svg" alt="arrow">
+              </div>
+              <ul>
+                <li class="accordion-inside">
+                  <span>Chat and email support is available 24/7. Phone lines are open during normal business hours.</span>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+        </section><!-- /UL SECTION --> 
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      . Coded by <a href="https://www.linkedin.com/in/roberto-baiochi-562795244/">Roberto Baiochi</a>.
+    </footer>
+  </body>
+</html>
